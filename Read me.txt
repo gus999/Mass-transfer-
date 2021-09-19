@@ -1,0 +1,35 @@
+Instructions to activate esfera.swf video on FORMMasa
+
+-Install Flash Player (FlashPlayerSetup)
+-Right click on bar to add components>scroll down and click on showckwave flash
+-Add shockwave flash anywhere on FORMMasa
+-Rename shockwave flash 1 to FlashVid 
+-Double click on CmdGraficar and Uncomment these lines
+
+
+
+Private Sub CmdGraficar_Click()
+
+'FlashVid.Visible = True
+
+AND
+
+
+'FormPmasa.ScaleMode = 3
+'FlashVid.Movie = App.Path & "\esfera.swf"
+'FlashVid.Left = 0
+'FlashVid.Top = 0
+'FlashVid.Width = 400
+'FlashVid.Height = 480
+'FlashVid.Play
+
+
+You should be able to run the program now with the visual video of the mass transfer calculations
+
+
+-Shockwave Flash has shown some issues to save it with the component activated or trying to deactivate it and save it right after. Perhaps, a compatibily issue of running it on Win 10.
+as of today, I haven't been able to save this form with Shockwave Flash activated. If you figure out what the problem is, please comment.
+
+
+
+
